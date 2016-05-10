@@ -65,8 +65,12 @@
   <ItemGroup>
     <Compile Include="Assets\Backup_Script\DestroyByContact.cs" />
     <Compile Include="Assets\Backup_Script\GameController.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\Backup_Script\MouseDrivenController_Player.cs" />
+    <Compile Include="Assets\Scripts_Used\Finish.cs" />
+    <Compile Include="Assets\Scripts_Used\PlayerController.cs" />
+    <Compile Include="Assets\Scripts_Used\SmoothFollow.cs" />
+    <Compile Include="Assets\Scripts_Used\Start.cs" />
+    <Compile Include="Assets\Scripts_Used\Timer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
